@@ -1,0 +1,2 @@
+\beamer@sectionintoc {1}{数列极限}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{数列极限的定义与基本性质}{4}{0}{1}

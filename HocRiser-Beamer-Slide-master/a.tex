@@ -1,0 +1,68 @@
+\documentclass{beamer}
+\usepackage{ctex, hyperref}
+\usepackage[T1]{fontenc}
+\usepackage{latexsym,amsmath,xcolor,multicol,booktabs,calligra}
+\usepackage{graphicx,pstricks,listings,stackengine}
+\def\cmd#1{\texttt{\color{red}\footnotesize $\backslash$#1}}
+\def\env#1{\texttt{\color{blue}\footnotesize #1}}
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
+\definecolor{halfgray}{gray}{0.55}
+\lstset{
+	basicstyle=\ttfamily\small,
+	keywordstyle=\bfseries\color{deepblue},
+	emphstyle=\ttfamily\color{deepred},
+	stringstyle=\color{deepgreen},
+	numbers=left,
+	numberstyle=\small\color{halfgray},
+	rulesepcolor=\color{red!20!green!20!blue!20},
+	frame=shadowbox,
+}
+
+%---------------------------------------------------
+
+\author{HocRiser}
+\title{数学分析}
+\subtitle{大一上期末总结}
+\institute{吉林大学 20级唐计}
+\date{2020年12月26日}
+\usepackage{waseda}
+
+\begin{document}
+
+\kaishu
+\begin{frame}
+	\titlepage
+	\begin{figure}[htpb]
+		\begin{center}
+			\includegraphics[width=0.2\linewidth]{pic/HocRiser.jpg}
+		\end{center}
+	\end{figure}/Users/cloudsky/Documents/应用/LaTeX/HocRiser-Beamer-Slide-master/pic/HocRiser.jpg
+\end{frame}
+
+\begin{frame}
+	\tableofcontents[sectionstyle=show,subsectionstyle=show/shaded/hide,subsubsectionstyle=show/shaded/hide]
+\end{frame}
+
+%---------------------------------------------------
+
+\section{数列极限}
+
+\subsection{数列极限的定义与基本性质}
+
+\begin{frame}{数列极限的定义}
+	\begin{itemize}[<+-| alert@+>] 
+		\item 设$\{x_n\}$为一个数列，$A$为一个给定实数，如果对于任意给定的正数$\varepsilon$，都存在正整数$N$，使得当$n>N$时，就有$$|x_n-A|<\varepsilon$$
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\begin{center}
+		{\Huge\calligra Thanks!}
+	\end{center}
+\end{frame}
+
+%---------------------------------------------------
+
+\end{document}
